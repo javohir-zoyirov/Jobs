@@ -1,6 +1,9 @@
 import { createContext } from "react";
 
 export const ApiContext = createContext({
-    value:"",
+    value:[],
     setValue:(value)=>{},
+    data:[],
+    search:"",
+    setSearch:(value)=> {}
 })
